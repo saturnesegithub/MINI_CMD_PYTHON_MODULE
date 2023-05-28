@@ -43,3 +43,19 @@ def tree():
 def xcopy():
     import sys
     xcopy_data = [sys.path]
+def run_calc():
+    evaluate = input()
+    print(int(eval(evaluate)))
+def run_cmd():
+    print("CMDCEPTION!")
+def delt(name):
+    import os
+    os.remove(name)
+def find(listname,listelement):
+    if listelement in listname:
+        print("True")
+    else:
+        print("False")
+def systeminfo_plus():
+    import platform
+    print(platform.platform())
