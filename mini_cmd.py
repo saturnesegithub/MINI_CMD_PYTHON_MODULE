@@ -37,7 +37,7 @@ def rcp(listname,copylist):
 def sleep(sleep_time):
     import time
     time.sleep(sleep_time)
-def tree():
+def t
     import sys
     print(sys.path)
 def xcopy():
